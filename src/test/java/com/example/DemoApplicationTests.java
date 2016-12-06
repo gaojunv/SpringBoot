@@ -1,6 +1,6 @@
 package com.example;
 
-import com.example.mapper.UserMapper;
+import com.example.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,11 +11,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class DemoApplicationTests {
 	@Autowired
-	private UserMapper mapper;
+	private UserService userService;
 	@Test
 	public void contextLoads() {
-		int i = mapper.queryAll();
-		System.out.println(i);
+		com.example.entity.Test i = userService.getUserNum();
+		System.out.println(i.getAa());
 	}
 
 }
