@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@192.168.1.106:1521:orcl
+    username: gaojun
+    password: gaojun
+    driverClassName:  oracle.jdbc.driver.OracleDriver
+    validationQuery: select * from dual
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  typeAliasesPackage: com.example.model

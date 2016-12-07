@@ -1,11 +1,13 @@
 package com.example.mapper;
 
-import com.example.entity.Test;
+import com.example.model.User;
 import org.apache.ibatis.annotations.Mapper;
+
+import java.util.ArrayList;
 
 @Mapper
 public interface UserMapper {
 
-    Test queryAll();
+    ArrayList<User> queryAll();
 
 }
