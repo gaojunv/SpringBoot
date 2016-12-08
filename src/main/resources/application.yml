@@ -5,7 +5,15 @@ spring:
     password: gaojun
     driverClassName:  oracle.jdbc.driver.OracleDriver
     validationQuery: select * from dual
-
+  session:
+    store-type: redis
+  redis:
+    host: 192.168.1.106
+    port: 6379
+    password: gaojun
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   typeAliasesPackage: com.example.model
+security:
+  basic:
+    enabled: false
