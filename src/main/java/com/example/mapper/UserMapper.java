@@ -3,11 +3,12 @@ package com.example.mapper;
 import com.example.model.User;
 import org.apache.ibatis.annotations.Mapper;
 
-import java.util.ArrayList;
+import java.util.List;
 
 @Mapper
 public interface UserMapper {
 
-    ArrayList<User> queryAll();
+    List<User> queryAll();
 
+    User findByUsername(String username);
 }

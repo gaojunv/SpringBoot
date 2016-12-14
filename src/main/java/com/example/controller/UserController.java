@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by GAO on 2016/12/6.
@@ -25,7 +25,7 @@ public class UserController {
 
     @RequestMapping(value = "/user",method = RequestMethod.GET)
     @ResponseBody
-    public ArrayList<User> user(){
+    public List<User> user(){
         return userService.getUserList();
     }
 }

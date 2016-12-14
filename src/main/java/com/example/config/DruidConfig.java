@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 import java.sql.SQLException;
 
 @Configuration
-public class DruidConfiguration {
+public class DruidConfig {
     @Bean
     public DataSource druidDataSource(@Value("${spring.datasource.driverClassName}") String driver,
                                       @Value("${spring.datasource.url}") String url,
