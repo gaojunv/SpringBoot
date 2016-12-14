@@ -24,7 +24,7 @@ public class DemoApplicationTests {
 	}
 	@Test
 	public void passwordLoads(){
-		BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();;
-		System.out.println(passwordEncoder.encode("$2a$08$lDnHPz7eUkSi6ao14Twuau08mzhWrL4kyZGGU5xfiGALO/Vxd5DOi"));
+		User user = userService.findByUsername("user");
+		System.out.println(user.getUsername());
 	}
 }

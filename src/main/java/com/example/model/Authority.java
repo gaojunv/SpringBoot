@@ -9,10 +9,10 @@ import java.math.BigDecimal;
 /**
  * Created by GAO on 2016/12/11.
  */
-@Builder
+//@Builder
 @Getter
 @Setter
 public class Authority {
-    private Long id;
+    private BigDecimal id;
     private String  name;
 }

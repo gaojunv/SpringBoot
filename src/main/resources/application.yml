@@ -14,6 +14,7 @@ spring:
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   typeAliasesPackage: com.example.model
+  type-handlers-package:
 security:
   basic:
     enabled: false
