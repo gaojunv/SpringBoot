@@ -1,7 +1,7 @@
 package com.example.rest.security;
 
-import com.example.model.Authority;
-import com.example.model.User;
+import com.example.core.model.Authority;
+import com.example.core.model.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
