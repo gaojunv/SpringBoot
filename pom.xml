@@ -8,7 +8,7 @@
 	<version>${project.version}</version>
 	<modules>
 		<module>security</module>
-		<module>portal</module>
+		<module>rest</module>
 		<module>core</module>
 	</modules>
 	<packaging>pom</packaging>
