@@ -1,4 +1,4 @@
-package com.example.rest.mapper;
+package com.example.core.mapper;
 
 import com.example.core.model.User;
 import org.apache.ibatis.annotations.Mapper;

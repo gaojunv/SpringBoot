@@ -1,4 +1,4 @@
-package com.example.rest.config;
+package com.example.core.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.beans.factory.annotation.Value;

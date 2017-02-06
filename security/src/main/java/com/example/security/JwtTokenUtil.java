@@ -1,4 +1,4 @@
-package com.example.rest.security;
+package com.example.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

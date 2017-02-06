@@ -1,9 +1,9 @@
 package com.example.rest.controller;
 
-import com.example.rest.security.JwtAuthenticationResponse;
-import com.example.rest.security.JwtAuthenticationRequest;
-import com.example.rest.security.JwtTokenUtil;
-import com.example.rest.security.JwtUser;
+import com.example.security.JwtAuthenticationResponse;
+import com.example.security.JwtAuthenticationRequest;
+import com.example.security.JwtTokenUtil;
+import com.example.security.JwtUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;

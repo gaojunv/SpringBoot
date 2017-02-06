@@ -1,4 +1,4 @@
-package com.example.rest.security;
+package com.example.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,9 +1,9 @@
-package com.example.rest.service;
+package com.example.core.service;
 
-import com.example.rest.mapper.AuthorityMapper;
+import com.example.core.mapper.AuthorityMapper;
 import com.example.core.model.Authority;
 import com.example.core.model.User;
-import com.example.rest.mapper.UserMapper;
+import com.example.core.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
