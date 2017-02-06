@@ -1,4 +1,4 @@
-package com.example.security;
+package com.example.rest.security;
 
 import com.example.model.Authority;
 import com.example.model.User;
