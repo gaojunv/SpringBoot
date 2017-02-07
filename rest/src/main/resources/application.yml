@@ -1,16 +1,16 @@
 spring:
   datasource:
-    url: jdbc:oracle:thin:@192.168.1.106:1521:orcl
-    username: gaojun
-    password: gaojun
+    url: jdbc:oracle:thin:@10.224.201.59:1521:orcl
+    username: zqinfo
+    password: 181818
     driverClassName:  oracle.jdbc.driver.OracleDriver
     validationQuery: select * from dual
   session:
     store-type: redis
   redis:
-    host: 192.168.1.106
+    host: 127.0.0.1
     port: 6379
-    password: gaojun
+    password: fcsc_redis
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   typeAliasesPackage: com.example.model
