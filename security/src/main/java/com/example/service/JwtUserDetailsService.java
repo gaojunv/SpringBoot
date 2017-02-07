@@ -2,7 +2,6 @@ package com.example.service;
 
 import com.example.JwtUserFactory;
 import com.example.model.User;
-import com.example.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
