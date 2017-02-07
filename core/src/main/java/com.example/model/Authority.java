@@ -1,4 +1,4 @@
-package com.example.core.model;
+package com.example.model;
 
 import lombok.Getter;
 import lombok.Setter;

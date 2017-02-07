@@ -13,7 +13,7 @@ spring:
     password: gaojun
 mybatis:
   mapperLocations: classpath:mapper/*.xml
-  typeAliasesPackage: com.example.core.model
+  typeAliasesPackage: com.example.model
 security:
   basic:
     enabled: false

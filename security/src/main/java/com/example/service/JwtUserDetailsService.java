@@ -1,8 +1,8 @@
-package com.example.security.service;
+package com.example.service;
 
-import com.example.core.model.User;
-import com.example.security.JwtUserFactory;
-import com.example.core.service.UserService;
+import com.example.JwtUserFactory;
+import com.example.model.User;
+import com.example.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

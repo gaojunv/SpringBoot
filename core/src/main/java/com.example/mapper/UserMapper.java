@@ -1,6 +1,6 @@
-package com.example.core.mapper;
+package com.example.mapper;
 
-import com.example.core.model.User;
+import com.example.model.User;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
